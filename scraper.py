@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 print(requests.__version__)
-print("this is my scraper data")
+print("my scraper is running")
 
 def scrape_quotes():
     url = "https://quotes.toscrape.com/"
